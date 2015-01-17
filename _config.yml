@@ -1,0 +1,19 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Enclose
+tagline:          'Bundler+compiler for node.js'
+description:      'Compile your node.js project into an executable'
+url:              http://igorklopov.github.io/enclose
+baseurl:          /
+
+author:
+  name:           'Igor Klopov'
+
+paginate:         5
