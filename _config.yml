@@ -7,13 +7,20 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Enclose
-tagline:          'Bundler+compiler for node.js'
-description:      'Compile your node.js project into an executable'
-url:              http://igorklopov.github.io/enclose
+title:            EncloseJS
+tagline:          'Compiler for io.js/node.js'
+description:      'Compile your io.js/node.js project. No sources aboard.'
+url:              http://enclosejs.com
 baseurl:          /
 
 author:
   name:           'Igor Klopov'
+  email:          'igor@klopov.com'
 
 paginate:         5
+
+# Custom vars
+github:
+  repo:           https://github.com/igorklopov/enclose
+  issues:         https://github.com/igorklopov/enclose/issues
+gitter:           https://gitter.im/igorklopov/enclose

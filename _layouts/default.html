@@ -12,4 +12,10 @@
     </div>
 
   </body>
+  <script>
+    var home = "enclosejs.com";
+    if (window.location.host !== home) {
+      window.location.replace("http://" + home);
+    }
+  </script>
 </html>

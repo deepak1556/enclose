@@ -1,2 +1,2 @@
 # enclose
-Compile your node.js project into a single executable
+Compile your io.js/node.js project
