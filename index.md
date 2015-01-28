@@ -37,9 +37,7 @@ the same as `node /path/project.js`.
 ### Command line
 
 Command line call `project a b c` is similar
-to `node project.js a b c`. But you can also
-pass some node- and v8-specific parameters.
-See docs.
+to `node project.js a b c`.
 
 ### Dependencies
 
