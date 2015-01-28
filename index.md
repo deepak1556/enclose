@@ -92,9 +92,7 @@ when the sources are compiled to native code.
 Hackers will deal with
 [that push-mov stuff](https://github.com/v8/v8-git-mirror/blob/master/src/x87/full-codegen-x87.cc#L1110).
 No need to obfuscate, no need to encrypt,
-no "hidden" decryption keys. Stacktraces
-show nothing (in case you wish to `require`
-untrusted on-disk code). Also
+no "hidden" decryption keys. Also
 
 ```
 myfunc.toString()
