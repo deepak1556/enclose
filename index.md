@@ -120,7 +120,11 @@ issues. Let's keep it vanilla.
 ### Unlimited code
 
 You are not limited by the size of project.
-...TODO...
+Big rojects like `browserify`, `eslint`
+can be easily compiled using EncloseJS
+(see examples directory). Probably, your
+existing project can be compiled too,
+with minimal adjustments.
 
 ### Platforms
 
