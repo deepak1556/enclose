@@ -6,7 +6,7 @@ title: home
 ### Use cases
 
 * Make a commercial version of your
-application.
+application without sources.
 * Make a demo/evaluation/trial version of
 your app without sources.
 * Make some kind of self-extracting
