@@ -11,7 +11,8 @@ application.
 your app without sources.
 * Make some kind of self-extracting
 archive or installer.
-* No need to install node, npm.
+* No need to install node and npm to
+deploy the compiled application.
 * No need to download hundreds of files via
 `npm install` to deploy your application.
 Deploy it as a single independent file.
@@ -36,8 +37,8 @@ the same as `node /path/project.js`.
 
 ### Command line
 
-Command line call `project a b c` is
-equivalent to `node project.js a b c`.
+Command line call `./project a b c` is
+equivalent to `node ./project.js a b c`.
 
 ### Dependencies
 
@@ -62,9 +63,10 @@ Yes. Because JavaScript code is transformed
 into native code at compile-time using
 [V8 internal compiler](https://github.com/v8/v8-git-mirror/blob/master/src/compiler.cc).
 Hence, your sources are simply not required
-to execute the box, and they are excluded.
+to execute the box, and they are not packaged.
 
-No. Optimized native code is generated
+No. Due to JavaScript dynamic nature,
+optimized native code is generated
 using information, collected at run-time.
 Without that run-time info EncloseJS
 can generate only "unoptimized" code,
@@ -73,7 +75,7 @@ optimized one.
 
 Also, io.js code is put inside the box
 (along with your code) to support all
-JavaScript dynamic features for your
+io.js low level functionality for your
 application at run-time. This increases
 output file size.
 
