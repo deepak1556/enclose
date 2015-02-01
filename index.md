@@ -36,8 +36,8 @@ the same as `node /path/project.js`.
 
 ### Command line
 
-Command line call `project a b c` is similar
-to `node project.js a b c`.
+Command line call `project a b c` is
+equivalent to `node project.js a b c`.
 
 ### Dependencies
 
@@ -51,7 +51,7 @@ You don't need to list them manually.
 If your project has assets (html templates,
 css, etc), for example to serve via http,
 you can bundle them into the box. Just
-list them as a [glob](https://github.com/isaacs/node-glob#glob)
+list them as a [globby](https://github.com/sindresorhus/globby)
 in the configuration file.
 
 ### Compilation? Srsly?
@@ -120,7 +120,7 @@ issues. Let's keep it vanilla.
 ### Unlimited code
 
 You are not limited by the size of project.
-Big projects like `browserify`, `eslint`
+Big projects like `npm`, `browserify`, `eslint`
 can be easily compiled using EncloseJS
 (see examples directory). Probably, your
 existing project can be compiled too,
