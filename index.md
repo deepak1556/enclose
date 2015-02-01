@@ -37,8 +37,8 @@ the same as `node /path/project.js`.
 
 ### Command line
 
-Command line call `./project a b c` is
-equivalent to `node ./project.js a b c`.
+Command line call `./project a b` is
+equivalent to `node ./project.js a b`.
 
 ### Dependencies
 
@@ -62,16 +62,16 @@ Both Yes and No.
 Yes. Because JavaScript code is transformed
 into native code at compile-time using
 [V8 internal compiler](https://github.com/v8/v8-git-mirror/blob/master/src/compiler.cc).
-Hence, your sources are simply not required
-to execute the box, and they are not packaged.
+Hence, your sources are not required to
+execute the box, and they are not packaged.
 
 No. Due to JavaScript dynamic nature,
 optimized native code is generated
 using information, collected at run-time.
 Without that run-time info EncloseJS
-can generate only "unoptimized" code,
-that runs about 2x slower, than
-optimized one.
+can generate only "unoptimized" code.
+It runs about 2x slower, than optimized
+one.
 
 Also, io.js code is put inside the box
 (along with your code) to support all
