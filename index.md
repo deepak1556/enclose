@@ -24,7 +24,7 @@ without installing it.
 ### Install
 
 ```
-npm install -g enclose
+npm install enclose
 ```
 
 ### The box
