@@ -3,6 +3,8 @@ layout: default
 title: home
 ---
 
+![Hello, world!](screenshot.png)
+
 ### Use cases
 
 * Make a commercial version of your application without sources.
